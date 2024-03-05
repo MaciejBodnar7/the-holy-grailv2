@@ -56,6 +56,21 @@ img {
   font-weight: 800;
   font-size: 1.125rem;
 }
+.footer {
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 1rem;
+}
+.st3-title {
+  color: #e5e7eb;
+}
+.st3-title-1 {
+  font-weight: 800;
+  font-size: 1.125rem;
+}
+.st3-title p {
+  margin: 0;
+}
 /* navbar and logo */
 .logo {
   color: #f9faf8;
@@ -66,6 +81,7 @@ img {
 }
 
 .navbar {
+  white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,20 +132,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
 }
 .header-text {
+  margin: 12rem 0;
   color: #f9faf8;
-  width: 50vh;
 }
 .header-img img {
   border-radius: 0.5em;
 }
 .header-img {
-  width: 450px;
+  margin-left: 2em;
+  width: 700px;
   height: 200px;
   background-color: #404040;
-  margin-left: 1em;
 }
 /* section 1 */
 .section1-conteiner {
@@ -161,17 +176,54 @@ header {
 .names2 {
   text-align: end;
 }
+/* section3 */
+.st3-content {
+  background: #3882f6;
+  padding: 3em 4em;
+  margin: 6em auto;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* footer */
+.footer,
+.footer p {
+  margin: 0;
+  background: #1f2937;
+  padding: 1em;
+}
 /* btn */
 .header-btn {
+  white-space: nowrap;
   color: #e5e7eb;
   background: #3882f6;
-  padding: 1em 2em;
+  padding: 0.75em 2em;
   border-radius: 0.5em;
   transition: box-shadow 0.2s, border-radius 0.2s;
   font-weight: 800;
 }
 .header-btn:hover,
 .header-btn:focus {
+  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 1);
+  border-radius: 0.7em;
+}
+
+.bottom-btn {
+  margin-left: 1em;
+  white-space: nowrap;
+  color: #e5e7eb;
+  background: #3882f6;
+  border: 2px solid white;
+  padding: 0.75em 2em;
+  border-radius: 0.5em;
+  transition: box-shadow 0.2s, border-radius 0.2s;
+  font-weight: 800;
+}
+.bottom-btn:hover,
+.bottom-btn:focus {
   -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 1);
   box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 1);
